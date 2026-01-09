@@ -26,7 +26,7 @@ The project is divided into four distinct phases:
 
 ### Seasonal Sales Analysis
 Analysis of transaction volume by month and product season:
-![Seasonal Analysis](images/Sales Count per Month & Season.png)
+![Seasonal Analysis](https://github.com/JesusAHB25/Lumina-Fashion-Group-End-to-End-Retail-Analytics-Pipeline/blob/main/images/Sales%20Count%20per%20Month%20&%20Season.png?raw=true)
 
 ### Category vs Color Heatmap
 Identification of "Hero Products" through attribute correlation:
