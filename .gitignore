@@ -1,0 +1,13 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Python cache
+__pycache__/
+
+# Local environment
+.env
+venv/
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
