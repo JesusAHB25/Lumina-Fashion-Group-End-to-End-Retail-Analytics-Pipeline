@@ -4,7 +4,7 @@
 This project transforms fragmented retail data into a strategic analytical engine. By integrating sales, customer, product, and store data, I identified key inefficiencies in discount strategies and seasonal inventory management, providing actionable recommendations to optimize net revenue.
 
 ## 🛠️ Tech Stack
-* **Language:** Python 3.4.12
+* **Language:** Python 3.14.2
 * **Libraries:** Pandas, Seaborn, Matplotlib, SQLAlchemy
 * **Database Logic:** SQL (PostgreSQL compatible)
 * **Documentation:** Notion (Executive Reporting)
@@ -32,5 +32,27 @@ Analysis of transaction volume by month and product season:
 Identification of "Hero Products" through attribute correlation:
 ![Category Color Heatmap](https://github.com/JesusAHB25/Lumina-Fashion-Group-End-to-End-Retail-Analytics-Pipeline/blob/main/images/Sales%20Count%20by%20Category%20and%20Color.png?raw=true)
 
+## 🚀 How to Run
+1. Clone the repository: `git clone https://github.com/your-username/lumina-retail-analytics.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the Jupyter Notebook: `jupyter notebook main_analysis.ipynb`
+
+## 📖 Documentation & Business Insights
+
+While this repository contains the technical implementation, the complete business case, including deep-dive analysis and executive-level reporting, is documented in Notion.
+
+### **Detailed Case Study**
+You can access the full project walkthrough here: 
+
+[![Notion](https://img.shields.io/badge/Notion-Full_Project_Report-black?style=for-the-badge&logo=notion)]((https://purring-sailboat-492.notion.site/Jesus-Hernandez-Data-Portfolio-24d1d3119ed080c5bf0de65a37694de5?source=copy_link))
+
+👉 **[Lumina Fashion Group - Full Strategic Report]((https://purring-sailboat-492.notion.site/Lumina-Fashion-Group-Retail-Analytics-End-to-End-Pipeline-2b01d3119ed08066b5f9f147da60599c?source=copy_link))**
+
+### **What’s inside the documentation?**
+* **Phase 1: Relational Architecture:** Details on how the Star Schema was designed to unify the 4 data domains.
+* **Phase 2: Data Sanitization:** Comprehensive log of null handling and data quality protocols.
+* **Phase 3: Executive Dashboard:** High-resolution visualizations and storytelling of the EDA process.
+* **Strategic Recommendations:** A roadmap for 15% margin optimization based on the discount inelasticity found in the data.
+
 ---
-*Developed by Jesús - Data Analyst / Future Data Scientist*
+*Developed by Jesús with 🫐 and 🧮 - Data Analyst / Future Data Scientist*
