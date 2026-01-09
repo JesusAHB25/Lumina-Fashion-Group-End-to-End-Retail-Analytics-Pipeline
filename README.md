@@ -50,11 +50,10 @@ You can access the full project walkthrough here:
 
 ### **What’s inside the documentation?**
 
-* **Data Engineering & Pre-Processing:** Transform raw, distributed .csv files into a structured relational environment.
-* **Phase 1: Extraction & Integration:** Details on how the Star Schema was designed to unify the 4 data domains.
-* **Phase 2: Exploratory Data Analysis (EDA):** Comprehensive log of null handling and data quality protocols.
-* **Phase 3: Strategic Business Recommendations:** High-resolution visualizations and storytelling of the EDA process.
-* **Final Results & Strategic Summary:** Summary of the key results provided by the analysis.
+* **🏗️ Data Architecture:** Design of a **Star Schema** to unify 4 decoupled data domains into a single relational environment.
+* **🧹 Cleaning Protocols:** Technical log of null imputation (1,000+ rows) and data standardization to ensure **Zero-Bias** results.
+* **📈 EDA & Storytelling:** Advanced visualizations (Heatmaps & Time-Series) translating Python logic into executive business narratives.
+* **🎯 Strategic Roadmap:** 4-pillar action plan for **margin optimization** and inventory realignment based on data-driven findings.
 
 ---
 *Developed by Jesús with 🫐 and 🧮 - Data Analyst / Future Data Scientist*
