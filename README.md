@@ -30,7 +30,7 @@ Analysis of transaction volume by month and product season:
 
 ### Category vs Color Heatmap
 Identification of "Hero Products" through attribute correlation:
-![Category Color Heatmap]([images/Sales Count by Category and Color.png](https://github.com/JesusAHB25/Lumina-Fashion-Group-End-to-End-Retail-Analytics-Pipeline/blob/main/images/Sales%20Count%20by%20Category%20and%20Color.png?raw=true))
+![Category Color Heatmap](https://github.com/JesusAHB25/Lumina-Fashion-Group-End-to-End-Retail-Analytics-Pipeline/blob/main/images/Sales%20Count%20by%20Category%20and%20Color.png?raw=true)
 
 ---
 *Developed by Jesús - Data Analyst / Future Data Scientist*
