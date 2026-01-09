@@ -22,5 +22,14 @@ The project is divided into four distinct phases:
 * **Hero Products:** Identified "White" color staples in Accessories and Dresses as the primary revenue drivers across all regions.
 * **Seasonality Gap:** Detected a misalignment between product season attributes and actual sales months, leading to a recommendation for synchronized clearance windows.
 
+## Visual Insights
+
+### Seasonal Sales Analysis
+Analysis of transaction volume by month and product season:
+![Seasonal Analysis](images/Sales Count per Month & Season.png)
+
+### Category vs Color Heatmap
+Identification of "Hero Products" through attribute correlation:
+![Category Color Heatmap](images/Sales Count by Category and Color.png)
 ---
 *Developed by Jesús - Data Analyst / Future Data Scientist*
