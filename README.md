@@ -78,6 +78,10 @@ JOIN stores st ON s.store_id = st.store_id;
 > [!IMPORTANT]
 > **Financial Insight:** By using **Median-based aggregation** to neutralize transaction outliers, I proved that discounts >20% showed a near-zero correlation with volume increase. The median quantity remained constant at **3 units**, proving that Lumina was sacrificing net margins without driving a proportional volume uplift.
 
+<p align="center">
+  <img src="https://github.com/JesusAHB25/Lumina-Fashion-Group-End-to-End-Retail-Analytics-Pipeline/blob/main/images/Total%20Net%20Revenue%20by%20Discount%20Percentage.png?raw=true" alt="Discount Elasticity Paradox" width="750">
+</p>
+
 ### 🗺️ Geospatial & Attribute Performance
 * **Hero Products:** Heatmap analysis identified **"White"** staples in Accessories and Dresses as the highest-frequency transaction clusters across the entire ecosystem.
 * **Regional Balance:** Revenue is remarkably balanced across regions, with the **Online Store** performing at par with physical boutiques (~$2.43M), suggesting a high ceiling for digital-first scaling.
