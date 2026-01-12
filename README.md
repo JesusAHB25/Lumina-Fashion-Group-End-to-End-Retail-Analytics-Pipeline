@@ -8,8 +8,6 @@
 ## 📊 Project Overview
 This project transforms fragmented retail data into a strategic analytical engine. As an **aspiring Data Scientist**, I leveraged mathematical rigor to unify sales, customer, product, and store domains, identifying critical inefficiencies in discount strategies and seasonal inventory management.
 
----
-
 ## 🏗️ Data Architecture: The Star Schema
 To ensure analytical scalability, I transformed the raw CSV datasets into a **Relational Star Schema**. This architecture decouples quantitative metrics from descriptive attributes, optimizing query performance and data integrity.
 
@@ -48,8 +46,6 @@ JOIN products p ON s.product_id = p.product_id
 JOIN stores st ON s.store_id = st.store_id;
 ```
 
----
-
 ## 🎯 High-Impact Insights (The "Hook")
 
 > [!IMPORTANT]
@@ -58,7 +54,6 @@ JOIN stores st ON s.store_id = st.store_id;
 * **Hero Products:** Identified "White" staples in Accessories and Dresses as the core revenue drivers across all regions.
 * **Seasonality Misalignment:** Detected a 2-month lag between product "Season" attributes and actual consumer purchase behavior, suggesting a recalibration of clearance windows.
 
----
 
 ## 📊 Visual Intelligence
 
@@ -74,7 +69,6 @@ Identifying high-performing color/category clusters:
   <img src="https://github.com/JesusAHB25/Lumina-Fashion-Group-End-to-End-Retail-Analytics-Pipeline/blob/main/images/Sales%20Count%20by%20Category%20and%20Color.png?raw=true" alt="Category Color Heatmap" width="750">
 </p>
 
----
 
 ## 📖 Executive Reporting (Notion)
 
