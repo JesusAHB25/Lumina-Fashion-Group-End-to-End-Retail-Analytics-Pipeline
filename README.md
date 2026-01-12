@@ -8,10 +8,11 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![Seaborn](https://img.shields.io/badge/Seaborn-%234470AD.svg?style=for-the-badge&logo=Seaborn&logoColor=white)
 
+> [!TIP]
+> **Executive Summary:** For the full strategic case study, business recommendations, and high-level insights, visit the **[Strategic Notion Report](https://purring-sailboat-492.notion.site/Lumina-Fashion-Group-Retail-Analytics-End-to-End-Pipeline-2b01d3119ed08066b5f9f147da60599c?source=copy_link)**.
+
 ## 📊 Project Overview
 This project transforms fragmented retail data into a strategic analytical engine. As a **Mathematics Student and Aspiring Data Scientist**, I leveraged mathematical rigor to unify sales, customer, product, and store domains. The objective was to build a robust data infrastructure to identify critical inefficiencies in discount strategies and seasonal inventory management.
-
-
 
 ## 🏗️ Phase 0: Data Engineering & Pre-Processing
 
@@ -28,12 +29,8 @@ To ensure analytical scalability, I transformed raw CSV datasets into a **Relati
   <img src="images/star_schema.png" alt="Star Schema Architecture" width="600">
 </p>
 
-
-
 ### ⚙️ Automated ETL Migration
 I implemented an automated ingestion layer using **SQLAlchemy** to migrate data from the local environment to a **PostgreSQL** instance, ensuring data type enforcement across 50,000+ records.
-
-
 
 ## 🛠️ Phase 1: Extraction & Integration (Master SQL)
 I developed a robust SQL pipeline to handle data fragmentation at the source level. This "Master Query" performs multi-way JOINs and cleans corrupted entries before they reach the Python analytical environment:
@@ -60,7 +57,6 @@ LEFT JOIN customers c ON s.customer_id = c.customer_id
 JOIN products p ON s.product_id = p.product_id
 JOIN stores st ON s.store_id = st.store_id;
 ```
-
 
 ## 🔬 Phase 2: Exploratory Data Analysis (EDA)
 
@@ -89,33 +85,16 @@ JOIN stores st ON s.store_id = st.store_id;
   <img src="https://github.com/JesusAHB25/Lumina-Fashion-Group-End-to-End-Retail-Analytics-Pipeline/blob/main/images/Sales%20Count%20by%20Category%20and%20Color.png?raw=true" alt="Category Color Heatmap" width="750">
 </p>
 
-
-
-## 📖 Executive Reporting (Notion)
-The technical code is only the foundation. The complete **Executive Case Study**, including the full strategic roadmap, architectural diagrams, and financial impact analysis, is documented in Notion.
-
-<p align="center">
-  <a href="https://purring-sailboat-492.notion.site/Lumina-Fashion-Group-Retail-Analytics-End-to-End-Pipeline-2b01d3119ed08066b5f9f147da60599c?source=copy_link">
-    <img src="https://img.shields.io/badge/Notion-Full_Strategic_Report-black?style=for-the-badge&logo=notion" alt="Notion Report">
-  </a>
-</p>
-
-
-
 ## 🛠️ Tech Stack & Requirements
 * **Core:** Python 3.13, SQL (PostgreSQL logic).
 * **Libraries:** Pandas, NumPy, Seaborn, Matplotlib, SQLAlchemy.
 * **Environment:** Jupyter Notebooks.
-
-
 
 ## 📂 Repository Structure
 * **data/**: Raw CSV files.
 * **images/**: ERD diagrams, Heatmaps, and Trend plots.
 * **requirements.txt**: Environment dependencies.
 * **Lumina Fashion Group Analysis.ipynb**: Full implementation (Engineering + EDA).
-
-
 
 ## 🛠️ Setup & Quick Start
 1. **Clone the repository**:  
