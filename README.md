@@ -109,7 +109,7 @@ JOIN stores st ON s.store_id = st.store_id;
    `git clone https://github.com/JesusAHB25/Lumina-Fashion-Group-End-to-End-Retail-Analytics-Pipeline.git`
 2. **Install dependencies**:  
    `pip install -r requirements.txt`
-3. **Configure your local PostgreSQL URI** in the notebook.
+3. **Configure your local PostgreSQL URL** in the notebook.
 4. **Open Lumina Fashion Group Analysis.ipynb** and run the cells to replicate the pipeline.
 
 ---
