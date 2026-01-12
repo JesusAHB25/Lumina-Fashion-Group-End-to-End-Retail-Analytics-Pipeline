@@ -1,16 +1,15 @@
 # Lumina Fashion Group: End-to-End Retail Analytics Pipeline 👗📊
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![Seaborn](https://img.shields.io/badge/Seaborn-%234470AD.svg?style=for-the-badge&logo=Seaborn&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ## 📊 Project Overview
-This project transforms fragmented retail data into a strategic analytical engine. As a **Mathematics Student and aspiring Data Scientist**, I leveraged mathematical rigor to unify sales, customer, product, and store domains. The objective was to build a robust data infrastructure to identify critical inefficiencies in discount strategies and seasonal inventory management.
+This project transforms fragmented retail data into a strategic analytical engine. As a **Mathematics Student and Aspiring Data Scientist**, I leveraged mathematical rigor to unify sales, customer, product, and store domains. The objective was to build a robust data infrastructure to identify critical inefficiencies in discount strategies and seasonal inventory management.
 
 
 
