@@ -12,7 +12,7 @@
 ## 📊 Project Overview
 This project transforms fragmented retail data into a strategic analytical engine. As a **Mathematics Student and aspiring Data Scientist**, I leveraged mathematical rigor to unify sales, customer, product, and store domains. The objective was to build a robust data infrastructure to identify critical inefficiencies in discount strategies and seasonal inventory management.
 
----
+
 
 ## 🏗️ Phase 0: Data Engineering & Pre-Processing
 
@@ -34,7 +34,7 @@ To ensure analytical scalability, I transformed raw CSV datasets into a **Relati
 ### ⚙️ Automated ETL Migration
 I implemented an automated ingestion layer using **SQLAlchemy** to migrate data from the local environment to a **PostgreSQL** instance, ensuring data type enforcement across 50,000+ records.
 
----
+
 
 ## 🛠️ Phase 1: Extraction & Integration (Master SQL)
 I developed a robust SQL pipeline to handle data fragmentation at the source level. This "Master Query" performs multi-way JOINs and cleans corrupted entries before they reach the Python analytical environment:
@@ -61,7 +61,7 @@ LEFT JOIN customers c ON s.customer_id = c.customer_id
 JOIN products p ON s.product_id = p.product_id
 JOIN stores st ON s.store_id = st.store_id;
 ```
----
+
 
 ## 🔬 Phase 2: Exploratory Data Analysis (EDA)
 
@@ -86,7 +86,7 @@ JOIN stores st ON s.store_id = st.store_id;
   <img src="https://github.com/JesusAHB25/Lumina-Fashion-Group-End-to-End-Retail-Analytics-Pipeline/blob/main/images/Sales%20Count%20by%20Category%20and%20Color.png?raw=true" alt="Category Color Heatmap" width="750">
 </p>
 
----
+
 
 ## 📖 Executive Reporting (Notion)
 The technical code is only the foundation. The complete **Executive Case Study**, including the full strategic roadmap, architectural diagrams, and financial impact analysis, is documented in Notion.
@@ -97,14 +97,14 @@ The technical code is only the foundation. The complete **Executive Case Study**
   </a>
 </p>
 
----
+
 
 ## 🛠️ Tech Stack & Requirements
 * **Core:** Python 3.13, SQL (PostgreSQL logic).
 * **Libraries:** Pandas, NumPy, Seaborn, Matplotlib, SQLAlchemy.
 * **Environment:** Jupyter Notebooks.
 
----
+
 
 ## 📂 Repository Structure
 * **data/**: Raw CSV files.
@@ -112,7 +112,7 @@ The technical code is only the foundation. The complete **Executive Case Study**
 * **requirements.txt**: Environment dependencies.
 * **Lumina Fashion Group Analysis.ipynb**: Full implementation (Engineering + EDA).
 
----
+
 
 ## 🛠️ Setup & Quick Start
 1. **Clone the repository**:  
