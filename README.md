@@ -9,7 +9,9 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-%234470AD.svg?style=for-the-badge&logo=Seaborn&logoColor=white)
 
 > [!TIP]
-> **Executive View:** Looking for business insights? Visit the **[Full Strategic Report on Notion](https://purring-sailboat-492.notion.site/Lumina-Fashion-Group-Retail-Analytics-End-to-End-Pipeline-2b01d3119ed08066b5f9f147da60599c?source=copy_link)** for the complete case study and roadmap.
+> ### 📈 High-Level Strategy & Insights
+> [![Notion](https://img.shields.io/badge/Notion-View_Executive_Report-000000?style=for-the-badge&logo=notion&logoColor=white)](https://purring-sailboat-492.notion.site/Lumina-Fashion-Group-Retail-Analytics-End-to-End-Pipeline-2b01d3119ed08066b5f9f147da60599c?source=copy_link)
+> *Visit the full case study for business recommendations and the strategic roadmap.*
 
 ## 📊 Project Overview
 This project transforms fragmented retail data into a strategic analytical engine. As a **Mathematics Student and Aspiring Data Scientist**, I leveraged mathematical rigor to unify sales, customer, product, and store domains. The objective was to build a robust data infrastructure to identify critical inefficiencies in discount strategies and seasonal inventory management.
