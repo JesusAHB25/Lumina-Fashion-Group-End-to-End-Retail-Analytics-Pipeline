@@ -64,11 +64,15 @@ JOIN stores st ON s.store_id = st.store_id;
 
 ### Seasonal Sales Velocity
 Analysis of transaction density by month vs. product season:
-![Seasonal Analysis](https://github.com/JesusAHB25/Lumina-Fashion-Group-End-to-End-Retail-Analytics-Pipeline/blob/main/images/Sales%20Count%20per%20Month%20&%20Season.png?raw=true)
+<p align="center">
+  <img src="https://github.com/JesusAHB25/Lumina-Fashion-Group-End-to-End-Retail-Analytics-Pipeline/blob/main/images/Sales%20Count%20per%20Month%20&%20Season.png?raw=true" alt="Seasonal Analysis" width="750">
+</p>
 
 ### Product Attribute Correlation (Heatmap)
 Identifying high-performing color/category clusters:
-![Category Color Heatmap](https://github.com/JesusAHB25/Lumina-Fashion-Group-End-to-End-Retail-Analytics-Pipeline/blob/main/images/Sales%20Count%20by%20Category%20and%20Color.png?raw=true)
+<p align="center">
+  <img src="https://github.com/JesusAHB25/Lumina-Fashion-Group-End-to-End-Retail-Analytics-Pipeline/blob/main/images/Sales%20Count%20by%20Category%20and%20Color.png?raw=true" alt="Category Color Heatmap" width="750">
+</p>
 
 ---
 
@@ -76,9 +80,11 @@ Identifying high-performing color/category clusters:
 
 The technical code is only half the story. The complete **Executive Case Study**, including the full strategic roadmap and data architecture diagrams, is documented in Notion.
 
-[![Notion](https://img.shields.io/badge/Notion-Full_Strategic_Report-black?style=for-the-badge&logo=notion)](https://purring-sailboat-492.notion.site/Lumina-Fashion-Group-Retail-Analytics-End-to-End-Pipeline-2b01d3119ed08066b5f9f147da60599c?source=copy_link)
-
----
+<p align="center">
+  <a href="https://purring-sailboat-492.notion.site/Lumina-Fashion-Group-Retail-Analytics-End-to-End-Pipeline-2b01d3119ed08066b5f9f147da60599c?source=copy_link">
+    <img src="https://img.shields.io/badge/Notion-Full_Strategic_Report-black?style=for-the-badge&logo=notion" alt="Notion Report">
+  </a>
+</p>
 
 ## 🛠️ Tech Stack & Requirements
 * **Core:** Python 3.13, SQL (PostgreSQL logic).
