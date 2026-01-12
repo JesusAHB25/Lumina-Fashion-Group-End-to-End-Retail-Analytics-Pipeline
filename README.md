@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Seaborn-%234470AD.svg?style=for-the-badge&logo=Seaborn&logoColor=white" alt="Seaborn">
 </p>
 
-### 📈 High-Level Strategy & Insights
+## 📈 High-Level Strategy & Insights
 <p align="center">
    <a href="https://purring-sailboat-492.notion.site/Lumina-Fashion-Group-Retail-Analytics-End-to-End-Pipeline-2b01d3119ed08066b5f9f147da60599c?source=copy_link">
      <img src="https://img.shields.io/badge/Notion-View_Executive_Report-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion Badge">
