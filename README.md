@@ -10,19 +10,43 @@ This project transforms fragmented retail data into a strategic analytical engin
 
 ---
 
-## 🏗️ Architecture & Pipeline
-I designed a robust data lifecycle divided into four distinct phases:
+## 🏗️ Data Architecture: The Star Schema
+To ensure analytical scalability, I transformed the raw CSV datasets into a **Relational Star Schema**. This architecture decouples quantitative metrics from descriptive attributes, optimizing query performance and data integrity.
 
-1. **Extraction & Relational Integration:**
-   - Migration of decoupled CSV datasets into a **Star Schema** architecture.
-   - Used **SQLAlchemy** to enforce referential integrity between Fact (Sales) and Dimension (Customers, Products, Stores) tables.
-3. **Data Sanitization & Rigor:**
-   - Managed **1,000+ null values** using a targeted imputation strategy (COALESCE logic) to prevent statistical bias.
-   - Standardized temporal data to ensure precision in time-series analysis.
-5. **Advanced EDA:**
-   - Multidimensional analysis focusing on regional performance and attribute correlation.
-7. **Strategic Optimization:**
-   - Translating Python-driven findings into high-impact business recommendations.
+### 🖼️ Visual Entity-Relationship Diagram (ERD)
+<p align="center">
+  <img src="images/star_schema.png" alt="Star Schema Architecture" width="600">
+</p>
+
+### 🗄️ Relational Design
+- **Fact Table (`sales_data`):** Centralizes transactional metrics (Quantity, Discount, Returns).
+- **Dimension Tables:** `product_data`, `store_data`, and `customer_data` provide the granular context needed for multidimensional analysis (Color, Category, Region, Age).
+
+### 🛠️ The Master Analytical Query (ETL Logic)
+I developed a robust SQL pipeline to handle data fragmentation and "dirty" entries found in the raw files (e.g., corrupted categories or missing IDs):
+
+```sql
+SELECT 
+    s.transaction_id,
+    s.date::DATE, 
+    -- Handling missing Customer IDs to prevent data loss (Data Robustness)
+    COALESCE(s.customer_id, 'GUEST-001') as customer_id, 
+    p.season,
+    st.store_name,
+    st.region,
+    -- Data Sanitization: Replacing corrupted '???' strings with 'Other'
+    REPLACE(p.category, '???', 'Other') as category, 
+    COALESCE(p.color, 'Unspecified') as color, 
+    s.quantity,
+    p.list_price,
+    -- Financial Normalization: Treating null discounts as zero for margin calculation
+    COALESCE(s.discount, 0) as discount_pct, 
+    (s.quantity * p.list_price) * (1 - COALESCE(s.discount, 0)) as net_revenue 
+FROM sales s
+LEFT JOIN customers c ON s.customer_id = c.customer_id
+JOIN products p ON s.product_id = p.product_id
+JOIN stores st ON s.store_id = st.store_id;
+```
 
 ---
 
