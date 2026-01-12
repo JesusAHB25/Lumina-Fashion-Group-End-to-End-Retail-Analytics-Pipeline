@@ -13,12 +13,16 @@ This project transforms fragmented retail data into a strategic analytical engin
 ## 🏗️ Architecture & Pipeline
 I designed a robust data lifecycle divided into four distinct phases:
 
-1. **Extraction & Relational Integration:** - Migration of decoupled CSV datasets into a **Star Schema** architecture.
+1. **Extraction & Relational Integration:**
+   - Migration of decoupled CSV datasets into a **Star Schema** architecture.
    - Used **SQLAlchemy** to enforce referential integrity between Fact (Sales) and Dimension (Customers, Products, Stores) tables.
-2. **Data Sanitization & Rigor:** - Managed **1,000+ null values** using a targeted imputation strategy (COALESCE logic) to prevent statistical bias.
+3. **Data Sanitization & Rigor:**
+   - Managed **1,000+ null values** using a targeted imputation strategy (COALESCE logic) to prevent statistical bias.
    - Standardized temporal data to ensure precision in time-series analysis.
-3. **Advanced EDA:** - Multidimensional analysis focusing on regional performance and attribute correlation.
-4. **Strategic Optimization:** - Translating Python-driven findings into high-impact business recommendations.
+5. **Advanced EDA:**
+   - Multidimensional analysis focusing on regional performance and attribute correlation.
+7. **Strategic Optimization:**
+   - Translating Python-driven findings into high-impact business recommendations.
 
 ---
 
