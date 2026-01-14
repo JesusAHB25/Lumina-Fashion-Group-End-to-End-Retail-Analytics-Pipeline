@@ -99,10 +99,16 @@ JOIN stores st ON s.store_id = st.store_id;
 * **Environment:** Jupyter Notebooks.
 
 ## 📂 Repository Structure
-* **data/**: Raw CSV files.
-* **images/**: ERD diagrams, Heatmaps, and Trend plots.
-* **requirements.txt**: Environment dependencies.
-* **Lumina Fashion Group Analysis.ipynb**: Full implementation (Engineering + EDA).
+```text
+├── **data/**
+│   └── 📄 Raw CSV files                           # Original Data
+├── **images/**
+│   └── 🖼️ ERD diagrams, Heatmaps, and Trend plots
+├── **notebooks/**
+│   └── 📓 Lumina Fashion Group Analysis.ipynb     # Full implementation (Engineering + EDA)
+├── 📄 requirements.txt                            # Environment dependencies
+└── 📄 README.md                                   # Project documentation
+```
 
 ## 🛠️ Setup & Quick Start
 1. **Clone the repository**:  
