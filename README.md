@@ -109,13 +109,18 @@ JOIN stores st ON s.store_id = st.store_id;
 ## 📂 Repository Structure
 ```text
 ├── data/
-│   └── 📄 Raw CSV files                           # Original Data
+│   └── 📄 Raw CSV files                         # Original datasets (Sales, Customers, etc.)
+├── sql_queries/
+│   ├── 📄 ddl_schema.sql                        # Database structure & Table definitions
+│   └── 📄 master_query.sql                      # Complex JOINs and data extraction logic
+├── src/
+│   └── 📄 data_preprocessing.py                 # Modular Python functions (ETL & Cleaning)
+│   └── 📄 eda.py                                # Statistical exploration and visualization logic
+├── notebooks/
+│   └── 📓 Lumina Fashion Group Analysis.ipynb   # Full implementation (Engineering + EDA)
 ├── images/
 │   └── 🖼️ ERD diagrams, Heatmaps, and Trend plots
-├── notebooks/
-│   └── 📓 Lumina Fashion Group Analysis.ipynb     # Full implementation (Engineering + EDA)
-├── 📄 requirements.txt                            # Environment dependencies
-└── 📄 README.md                                   # Project documentation
+└── 📄 requirements.txt                          # Project dependencies (Pandas, SQLAlchemy, etc.)
 ```
 
 ---
