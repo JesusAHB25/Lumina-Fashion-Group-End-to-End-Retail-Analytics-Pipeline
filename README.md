@@ -98,18 +98,6 @@ JOIN stores st ON s.store_id = st.store_id;
 * **Libraries:** Pandas, NumPy, Seaborn, Matplotlib, SQLAlchemy.
 * **Environment:** Jupyter Notebooks.
 
-## 📂 Repository Structure
-```text
-├── **data/**
-│   └── 📄 Raw CSV files                           # Original Data
-├── **images/**
-│   └── 🖼️ ERD diagrams, Heatmaps, and Trend plots
-├── **notebooks/**
-│   └── 📓 Lumina Fashion Group Analysis.ipynb     # Full implementation (Engineering + EDA)
-├── 📄 requirements.txt                            # Environment dependencies
-└── 📄 README.md                                   # Project documentation
-```
-
 ## 🛠️ Setup & Quick Start
 1. **Clone the repository**:  
    `git clone https://github.com/JesusAHB25/Lumina-Fashion-Group-End-to-End-Retail-Analytics-Pipeline.git`
@@ -117,6 +105,18 @@ JOIN stores st ON s.store_id = st.store_id;
    `pip install -r requirements.txt`
 3. **Configure your local PostgreSQL URL** in the notebook.
 4. **Open Lumina Fashion Group Analysis.ipynb** and run the cells to replicate the pipeline.
+
+## 📂 Repository Structure
+```text
+├── data/
+│   └── 📄 Raw CSV files                           # Original Data
+├── images/
+│   └── 🖼️ ERD diagrams, Heatmaps, and Trend plots
+├── notebooks/
+│   └── 📓 Lumina Fashion Group Analysis.ipynb     # Full implementation (Engineering + EDA)
+├── 📄 requirements.txt                            # Environment dependencies
+└── 📄 README.md                                   # Project documentation
+```
 
 ---
 *Developed by **Jesús** | Mathematics Student & Aspiring Data Scientist* 🤖🧿
