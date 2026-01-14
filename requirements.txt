@@ -1,5 +1,5 @@
 pandas
-seaborn
-matplotlib
-sqlalchemy
 numpy
+matplotlib
+seaborn
+sqlalchemy
