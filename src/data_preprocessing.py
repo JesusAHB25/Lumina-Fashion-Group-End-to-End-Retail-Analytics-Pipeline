@@ -19,12 +19,12 @@ dataframes = {'customers' : customer_data,
 
 # LOOP TO AUTOMATE THE PROCESS
 for name, file in dataframes.items():        
-    print(f'[---] {name} INFO [---]')        
-    print(f'\n{file.info()}')               
-    print('[---] NULL VALUES [---]')
-    print(f'\n{file.isnull().sum()}')       
-    print('[---] DUPLICATED VALUES [---]')
-    print(f'\n{file.duplicated().sum()}')    
+    print(f'[---] {name} SCHEMA INFO [---]')        
+    print(f'\n{file.info()}') 
+    print('[---] NULL VALUE COUNT [---]')
+    print(f'\n{file.isnull().sum()}') 
+    print('[---] DUPLICATE RECORD COUNT [---]')
+    print(f'\n{file.duplicated().sum()}')
 
 # CREATING POSTGRE SQL ENGINE
 engine = create_engine('postgresql://postgres:J.e.s.u.s01*@localhost:5432/lumina_fashion_group')
