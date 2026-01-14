@@ -111,7 +111,6 @@ JOIN stores st ON s.store_id = st.store_id;
 ├── data/
 │   └── 📄 Raw CSV files                         # Original datasets (Sales, Customers, etc.)
 ├── sql_queries/
-│   ├── 📄 ddl_schema.sql                        # Database structure & Table definitions
 │   └── 📄 master_query.sql                      # Complex JOINs and data extraction logic
 ├── src/
 │   └── 📄 data_preprocessing.py                 # Modular Python functions (ETL & Cleaning)
